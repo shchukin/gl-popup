@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>GL Popup</title>
+        <meta name="viewport" content="width=device-width">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+        <!-- resources -->
+        <link rel="stylesheet" href="gl-popup.css">
+        <script src="gl-popup.js"></script>
+        <!--/resources -->
+
+    </head>
+
+    <body style="margin: 0">
+
+        <div class="page">
+
+            <a href="#" data-popup="#feedback">Click me</a>
+
+        </div>
+
+
+
+        <!-- .gl-popup -->
+        <div class="gl-popup" id="feedback">
+            <div class="gl-popup__container">
+                <div class="gl-popup__container__overlay"></div>
+                <div class="gl-popup__container__viewport">
+                    <div class="gl-popup__container__viewport__slot">
+
+                        <div style="width: 200px; height: 200px; line-height: 200px; text-align: center; background: #fff">
+                            Hello, Popup!
+                        </div>
+
+                        <i class="gl-popup__container__viewport__slot__close">x</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/.gl-popup -->
+
+
+
+    </body>
+</html>
